@@ -1,0 +1,79 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://Grodot2.png" type="Texture" id=1]
+[ext_resource path="res://fonts/F... SAINT-TROPEZ-ALT2.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Grodot.png" type="Texture" id=3]
+[ext_resource path="res://AnimateGrodot.gd" type="Script" id=4]
+[ext_resource path="res://ballonsnap_freesfx.co.uk.wav" type="AudioStream" id=5]
+[ext_resource path="res://AudioStreamPlayer2D.gd" type="Script" id=6]
+[ext_resource path="res://fonts/Roboto/Roboto-Black.ttf" type="DynamicFontData" id=7]
+[ext_resource path="res://Grodot.gd" type="Script" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+font_data = ExtResource( 2 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [  ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "New Anim",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=3]
+size = 12
+use_filter = true
+font_data = ExtResource( 7 )
+
+[node name="Control" type="Control"]
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 21.1409
+margin_top = 296.0
+margin_right = 691.141
+margin_bottom = 402.0
+custom_fonts/font = SubResource( 1 )
+caret_blink = true
+caret_blink_speed = 0.5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Grodot" type="Sprite" parent="."]
+visible = false
+position = Vector2( 816.89, 309.847 )
+scale = Vector2( 0.415863, 0.415863 )
+script = ExtResource( 8 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Grodot"]
+position = Vector2( 54.472, 0 )
+frames = SubResource( 2 )
+animation = "New Anim"
+speed_scale = 0.5
+script = ExtResource( 4 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
+script = ExtResource( 6 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 730.883
+margin_top = 568.138
+margin_right = 1053.88
+margin_bottom = 592.138
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "https://www.instagram.com/dada_universe/"
+__meta__ = {
+"_edit_use_anchors_": false
+}

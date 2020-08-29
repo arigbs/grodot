@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ballonsnap_freesfx.co.uk.wav-9391d030343dde989b90c84ab5ea090a.sample"
+
+[deps]
+
+source_file="res://ballonsnap_freesfx.co.uk.wav"
+dest_files=[ "res://.import/ballonsnap_freesfx.co.uk.wav-9391d030343dde989b90c84ab5ea090a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
