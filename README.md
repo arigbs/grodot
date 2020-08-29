@@ -10,8 +10,8 @@ starts to look like a possible take off point for a meme engine....</p>
 <p>Named the derived avatar Grodot (.blend file included) and <br>
   built a sample Godot project around it, where the avatar's jaw clacks as you type.</p>
 
-Godot Engine Logo released under a creative commons license
-(https://github.com/godotengine/godot/blob/master/LOGO_LICENSE.md)
+<p>Godot Engine Logo released under a creative commons license<br>
+(https://github.com/godotengine/godot/blob/master/LOGO_LICENSE.md)</p>
 
 <p>sfx from https://www.freesfx.co.uk/<br>
 font sources / licenses in project folder</p>
