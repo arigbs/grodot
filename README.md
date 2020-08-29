@@ -17,6 +17,6 @@ font sources / licenses in project folder</p>
 
 <h4>Screenshots</h4>
 
-![](grodot_art/grodot.png)
-![](grodot_art/grodot2.png)
+![](grodot_art/Grodot.png)
+![](grodot_art/Grodot2.png)
 
