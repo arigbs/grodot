@@ -4,19 +4,19 @@
 <h4>Demo video available here:</h4>
 https://www.youtube.com/watch?v=1A-1oy3W0Dk
 
-What started out as a mod of the logo for the Godot Game Engine, 
-starts to look like a possible take off point for a meme engine....
+<p>What started out as a mod of the logo for the Godot Game Engine,<br> 
+starts to look like a possible take off point for a meme engine....</p>
 
 Godot Engine Logo released under a creative commons license
 (https://github.com/godotengine/godot/blob/master/LOGO_LICENSE.md)
 
-sfx from https://www.freesfx.co.uk/
-font sources / licenses in project folder
+<p>sfx from https://www.freesfx.co.uk/<br>
+font sources / licenses in project folder</p>
 
 <hr>
 
 <h4>Screenshots</h4>
 
-![](Grodot_art/Grodot.png)
-![](Grodot_art/Grodot2.png)
+![](grodot_art/grodot.png)
+![](grodot_art/grodot2.png)
 
